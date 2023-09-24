@@ -7,21 +7,33 @@ Facing the age-old problem of manual VM deployment. It was time-consuming, error
 Enter automation! Decided to revamp the VM deployment process from the ground up, and here's what:
 
 1. Vagrant: Vagrant for its simplicity and flexibility. It allowed to define my VM configurations in code, ensuring reproducibility across environments.
+
 2. Shell Scripting: To fine-tune the provisioning process, Used shell scripts. This gave complete control over software installation, configuration, and other customizations.
+
 3. Git: Version control was key to the codebase. Git allowed to track changes, maintain a history of scripts and configurations.
+
 4. Oracle VirtualBox: Used VirtualBox as a virtualization platform, providing a stable and scalable environment for VM instances.
+
 5. Nginx: For load balancing, Implemented Nginx. It efficiently distributed traffic across VMs, ensuring high availability and reliability.
+
 6. Apache Tomcat: Application server of choice was Apache Tomcat, which hosted Java-based applications with ease.
+
 7. Java JDBC: Applications relied on Java JDBC for database connectivity, ensuring fast and secure communication with the database.
+
 8. MariaDB (MySQL): Opted for MariaDB (RDBMS) as my database solution. Its performance and reliability met stringent requirements.
+
 9. Memcached: To boost database performance, Used Memcached for caching, reducing query times and enhancing overall system responsiveness.
 
 🎉 The Outcome 🎉
 The results were astounding:
 ✅ VM deployment time reduced by 80%
+
 ✅ Zero manual errors in the deployment process
+
 ✅ Improved scalability to handle increased demand
+
 ✅ High availability and reliability, exceeding expectations
+
 ✅ Streamlined version control and progress tracking through Git
 
 🎉Technical flow:
